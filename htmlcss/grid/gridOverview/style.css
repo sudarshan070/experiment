@@ -1,0 +1,44 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.child {
+    border: 1px solid gainsboro;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.child:nth-child(2n) {
+    background-color: bisque;
+}
+
+.child:nth-child(2n + 1) {
+    background-color: blanchedalmond;
+}
+
+.child:nth-child(1) {
+    background-color: beige;
+}
+
+@media screen and (max-width: 1080px) {
+    .parent {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 28px;
+    }
+    .child {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .parent {
+        grid-template-columns: 1fr;
+        padding: 12px;
+    }
+    .child {
+        padding: 12px;
+    }
+}
