@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+
+.child {
+    width: 30%;
+    margin-bottom: 24px;
+    padding: 24px;
+}
+
+.child:nth-child(2n) {
+    background-color: bisque;
+}
+
+.child:nth-child(2n + 1) {
+    background-color: blanchedalmond;
+}
+
+.child:nth-child(1) {
+    background-color: beige;
+}
+
+@media screen and (max-width: 1080px) {
+    .child {
+        width: 47%;
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    .child {
+        width: 100%;
+        padding: 12px;
+    }
+}
