@@ -1,0 +1,43 @@
+.main {
+    width: 500px;
+}
+
+.content {
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+.progress {
+    position: fixed;
+    width: 500px;
+    top: 0px;
+    left: 0px;
+    height: 10px;
+    border: 1px solid black;
+    animation: scaleProgress auto linear, colorChange auto linear;
+    animation-timeline: scroll(root);
+}
+
+@keyframes scaleProgress {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: lime;
+    }
+}
