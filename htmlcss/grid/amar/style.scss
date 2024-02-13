@@ -1,0 +1,27 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+
+      
+  @for $i from 1 through 100 {
+    $even: $i % 8 == 2 or $i % 8 == 3 or $i % 8 == 6 or $i % 8 == 7 or $i % 8 == 10 or $i % 8 == 11 or $i % 8 == 14 or $i % 8 == 15;
+    $odd: $i % 8 == 1 or $i % 8 == 4 or $i % 8 == 5 or $i % 8 == 8 or $i % 8 == 9 or $i % 8 == 12 or $i % 8 == 13 or $i % 8 == 16 or $i % 8 == 0;
+
+    .box:nth-child(#{$i}) {
+      @if $even {
+        background-color: #ff9999;
+        height: 500px;
+
+      }
+      @if $odd {
+        background-color: #99ccff; /* odd */
+      }
+    }
+  }
+  
+  }
+
+  .box {
+    height: 300px;
+  }

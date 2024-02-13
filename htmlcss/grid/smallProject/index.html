@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
+        .box {
+            height: 300px;
+            border: 1px solid red;
+        }
+
+        .box:nth-child(1),
+        .box:nth-child(5),
+        .box:nth-child(9) {
+            grid-column-start: auto;
+            grid-column-end: span 2;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="container">
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+    </section>
+
+</body>
+
+</html>

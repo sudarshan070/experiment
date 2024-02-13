@@ -1,0 +1,359 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.parent .box:nth-child(1) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(2) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(3) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(4) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(5) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(6) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(7) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(8) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(9) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(10) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(11) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(12) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(13) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(14) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(15) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(16) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(17) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(18) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(19) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(20) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(21) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(22) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(23) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(24) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(25) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(26) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(27) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(28) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(29) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(30) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(31) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(32) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(33) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(34) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(35) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(36) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(37) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(38) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(39) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(40) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(41) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(42) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(43) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(44) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(45) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(46) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(47) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(48) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(49) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(50) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(51) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(52) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(53) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(54) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(55) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(56) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(57) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(58) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(59) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(60) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(61) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(62) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(63) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(64) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(65) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(66) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(67) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(68) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(69) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(70) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(71) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(72) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(73) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(74) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(75) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(76) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(77) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(78) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(79) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(80) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(81) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(82) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(83) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(84) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(85) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(86) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(87) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(88) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(89) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(90) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(91) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(92) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(93) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(94) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(95) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(96) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(97) {
+  background-color: #99ccff; /* odd */
+}
+.parent .box:nth-child(98) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(99) {
+  background-color: #ff9999;
+  height: 500px;
+}
+.parent .box:nth-child(100) {
+  background-color: #99ccff; /* odd */
+}
+
+.box {
+  height: 300px;
+}/*# sourceMappingURL=style.css.map */
